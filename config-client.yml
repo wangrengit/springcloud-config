@@ -12,7 +12,7 @@ eureka:
 ---
 spring:
   application:
-    name: config-client-dev3
+    name: config-client-dev5
   profiles: dev 
   
 eureka:
