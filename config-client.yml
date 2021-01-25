@@ -1,0 +1,28 @@
+server:
+  port: 8201
+
+spring:
+  application:
+    name: config-client
+  profiles: test
+  
+eureka:
+  client:
+    service-url:
+      #注册中心的地址
+      defaultZone: http://eureka7001.com:7001/eureka/
+      
+---
+server:
+  port: 8202
+
+spring:
+  application:
+    name: config-client
+  profiles: dev 
+  
+eureka:
+  client:
+    service-url:
+      #注册中心的地址
+      defaultZone: http://eureka7001.com:7001/eureka/      
